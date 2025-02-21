@@ -1,0 +1,26 @@
+[
+  {
+    "id": "ghubibsle",
+    "firstName": "sagar",
+    "lastName": "nawaz",
+    "email": "sagarnawaz44@gmail.com",
+    "password": "$2b$10$KQ9MLlvYnx1m7M6sxRicfOoNUfbdAoNIY4wFhUCd1TuyHIM8F26RK",
+    "createdAt": "2025-02-20T19:06:43.434Z"
+  },
+  {
+    "id": "l639mefou",
+    "firstName": "ali",
+    "lastName": "nawaz",
+    "email": "ali12@gmail.com",
+    "password": "$2b$10$578q77H9B7JfISeFf2rYze.FVm.O40HULlL0SSYewRo1/Mi7HLWku",
+    "createdAt": "2025-02-20T19:38:18.612Z"
+  },
+  {
+    "id": "nuj8zua0f",
+    "firstName": "nawaz",
+    "lastName": "ahmed",
+    "email": "ahmed@gmail.com",
+    "password": "$2b$10$.wKKx9M/HUHylvpkFKleqez9aZeZSH.G2/8eg51U/oh8wJNFOFj5m",
+    "createdAt": "2025-02-20T20:41:44.922Z"
+  }
+]
