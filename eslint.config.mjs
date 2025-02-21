@@ -9,6 +9,19 @@ const compat = new FlatCompat({
   baseDirectory: __dirname,
 });
 
-const eslintConfig = [...compat.extends("next/core-web-vitals")];
+const rawConfig = compat.extends("next/core-web-vitals");
 
-export default eslintConfig;
+// A helper to remove the `parse` function from any parser objects
+function sanitizeConfig(config) {
+  if (config.parser && typeof config.parser === "object" && "parse" in config.parser) {
+    // Create a shallow copy of the parser object without the `parse` property
+    const { parse, ...rest } = config.parser;
+    config = { ...config, parser: rest };
+  }
+  return config;
+}
+
+// Process the array of config objects returned by compat.extends
+const sanitizedConfig = rawConfig.map((cfg) => sanitizeConfig(cfg));
+
+export default sanitizedConfig;
