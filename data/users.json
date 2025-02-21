@@ -22,5 +22,13 @@
     "email": "ahmed@gmail.com",
     "password": "$2b$10$.wKKx9M/HUHylvpkFKleqez9aZeZSH.G2/8eg51U/oh8wJNFOFj5m",
     "createdAt": "2025-02-20T20:41:44.922Z"
+  },
+  {
+    "id": "omx05qo0e",
+    "firstName": "yasir",
+    "lastName": "khan",
+    "email": "yasir@gmail.com",
+    "password": "$2b$10$IFpfilyhx04OVBjbUleRGOXRDMFpguwFN8KlC76aYT8vjhVhUTKoC",
+    "createdAt": "2025-02-21T10:27:36.224Z"
   }
 ]
