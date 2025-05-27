@@ -38,7 +38,7 @@ export default function BlogForm({ onBlogCreated }) {
           required
           minLength={5}
           maxLength={50}
-          className="w-full p-2 border rounded"
+          className="w-full p-2 border rounded text-black"
           value={formData.title}
           onChange={(e) => setFormData({...formData, title: e.target.value})}
         />
@@ -50,7 +50,7 @@ export default function BlogForm({ onBlogCreated }) {
           minLength={100}
           maxLength={3000}
           rows={6}
-          className="w-full p-2 border rounded"
+          className="w-full p-2 border rounded text-black"
           value={formData.body}
           onChange={(e) => setFormData({...formData, body: e.target.value})}
         />

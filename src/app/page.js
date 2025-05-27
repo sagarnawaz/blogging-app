@@ -56,7 +56,7 @@ export default async function HomePage() {
             <>
               <h2 className="text-xl font-semibold">Recent Posts</h2>
               {blogs.map(blog => (
-                <article key={blog.id} className="bg-white rounded-lg shadow-md p-6">
+                <article key={blog.id} className="bg-white text-black rounded-lg shadow-md p-6">
                   <h3 className="text-xl font-semibold mb-2">{blog.title}</h3>
                   <div className="flex items-center text-sm text-gray-500 mb-4">
                     <Link 

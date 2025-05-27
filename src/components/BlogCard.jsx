@@ -8,7 +8,7 @@ export default function BlogCard({ blog, onEdit, onDelete }) {
 
   return (
     <div className="bg-white p-6 rounded-lg shadow">
-      <h2 className="text-xl font-semibold mb-2">{blog.title}</h2>
+      <h2 className="text-xl font-semibold mb-2 text-black">{blog.title}</h2>
       <div className="text-sm text-gray-500 mb-4">
         By{' '}
         <Link href={`/author/${blog.authorId}`} className="text-primary-600 hover:underline">

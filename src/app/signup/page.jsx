@@ -48,7 +48,7 @@ export default function SignupPage() {
             required
             minLength={3}
             maxLength={20}
-            className="w-full p-2 border rounded"
+            className="w-full p-2 border rounded text-black"
             value={formData.firstName}
             onChange={(e) => setFormData({...formData, firstName: e.target.value})}
           />
@@ -60,7 +60,7 @@ export default function SignupPage() {
             required
             minLength={1}
             maxLength={20}
-            className="w-full p-2 border rounded"
+            className="w-full p-2 border rounded text-black"
             value={formData.lastName}
             onChange={(e) => setFormData({...formData, lastName: e.target.value})}
           />
@@ -70,7 +70,7 @@ export default function SignupPage() {
           <input
             type="email"
             required
-            className="w-full p-2 border rounded"
+            className="w-full p-2 border rounded text-black"
             value={formData.email}
             onChange={(e) => setFormData({...formData, email: e.target.value})}
           />
@@ -83,7 +83,7 @@ export default function SignupPage() {
             minLength={8}
             pattern="(?=.*[a-z])(?=.*[A-Z]).{8,}"
             title="Must contain at least one uppercase and lowercase letter, and at least 8 characters"
-            className="w-full p-2 border rounded"
+            className="w-full p-2 border rounded text-black"
             value={formData.password}
             onChange={(e) => setFormData({...formData, password: e.target.value})}
           />
@@ -93,14 +93,14 @@ export default function SignupPage() {
           <input
             type="password"
             required
-            className="w-full p-2 border rounded"
+            className="w-full p-2 border rounded text-black"
             value={formData.confirmPassword}
             onChange={(e) => setFormData({...formData, confirmPassword: e.target.value})}
           />
         </div>
         <button
           type="submit"
-          className="w-full bg-blue-500 text-white p-2 rounded hover:bg-blue-600"
+          className="w-full bg-blue-500 text-black p-2 rounded hover:bg-blue-600"
         >
           Sign Up
         </button>

@@ -52,7 +52,7 @@ export default async function AuthorPage({ params: { id } }) {
       />
 
       <div className="mt-8">
-        <h2 className="text-xl font-semibold mb-4">
+        <h2 className="text-xl font-semibold mb-4 text-black">
           Posts by {data.author.firstName} {data.author.lastName}
         </h2>
         {data.blogs.length > 0 ? (

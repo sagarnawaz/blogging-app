@@ -14,7 +14,7 @@ export default function AuthorProfile({ author, blogCount }) {
           />
         </div>
         <div>
-          <h2 className="text-2xl font-bold">
+          <h2 className="text-2xl font-bold text-black">
             {author.firstName} {author.lastName}
           </h2>
           <p className="text-gray-600">{author.email}</p>
