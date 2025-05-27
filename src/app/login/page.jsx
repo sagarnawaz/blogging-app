@@ -34,7 +34,7 @@ export default function LoginPage() {
           <input
             type="email"
             required
-            className="w-full p-2 border rounded"
+            className="w-full p-2 border rounded text-black"
             value={formData.email}
             onChange={(e) => setFormData({...formData, email: e.target.value})}
           />
@@ -44,7 +44,7 @@ export default function LoginPage() {
           <input
             type="password"
             required
-            className="w-full p-2 border rounded"
+            className="w-full p-2 border rounded text-black"
             value={formData.password}
             onChange={(e) => setFormData({...formData, password: e.target.value})}
           />
